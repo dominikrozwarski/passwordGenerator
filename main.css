@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(233, 233, 233);
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.wrapper {
+	width: 600px;
+	height: 950px;
+	background-image: url('https://cdn.pixabay.com/photo/2018/09/05/07/33/hacker-3655668_960_720.jpg');
+	background-size: cover;
+	box-shadow: 0 0 15px #000;
+	border-radius: 2%;
+}
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	position: relative;
+	padding: 20px 40px;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+	border-radius: 2%;
+}
+
+h1 {
+	color: rgb(233, 233, 233);
+	font-size: 40px;
+	text-align: center;
+	z-index: 1;
+}
+
+.middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding: 20px 40px;
+}
+h2 {
+	font-size: 24px;
+	color: rgb(233, 233, 233);
+	text-align: center;
+	padding-bottom: 20px;
+}
+p {
+	color: rgb(233, 233, 233);
+	font-size: 18px;
+}
+
+.boxes {
+	margin: 30px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.bottom {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom p {
+	padding: 13px;
+	font-size: 25px;
+	display: none;
+}
+
+.error {
+	text-transform: uppercase;
+	color: rgb(195, 128, 118);
+	text-decoration: solid;
+	font-weight: bold;
+}	
+
+.copy {
+	display: none;
+}
